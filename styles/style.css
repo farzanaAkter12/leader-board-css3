@@ -5,6 +5,53 @@ body{
 font-family: 'Poppins', sans-serif;
 background-color: #E5E5E5;
 }
+/* header style */
+header{
+    display: flex;
+    align-items: center;
+    background-color: #562EFF;
+    color: #FFFFFF;
+    width: 100%;
+    height: 94px;
+    margin: 0;
+    padding: 0;
+
+}
+#left-header{
+    display: flex;
+    align-items: center;
+    margin-left:280px ;
+}
+#right-header{
+   display: flex;
+    align-items: center;
+   margin-left: 450px;
+   margin-right: 280px;
+}
+#left-header h3{
+    margin-left: 0;
+    padding-left: 0;
+}
+.fa-lightbulb{
+    margin-top: 30px;
+    margin-right: 0;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+       
+}
+#right-header a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 5px;
+    font-weight: 400;
+        font-size: 16px;
+}
+.profile img{
+    width: 51px;
+     height: 51px;
+     margin-left: 15px;
+}
 /* main style */
 main{
     display: flex;
